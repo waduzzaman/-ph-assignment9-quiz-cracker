@@ -1,0 +1,32 @@
+
+.title{
+ background-color: skyblue;
+ margin-bottom: 20px;
+ padding-bottom: 25px;
+   
+}
+.title-image{
+    width: 50%;
+    
+}
+
+img {
+    width: 200px;
+    height: 100%;    
+    border: 1px solid seashell;
+}
+
+.quiz-card {
+    background-color: aliceblue;
+    border: 1px solid antiquewhite;
+    padding: 20px;
+    margin: 5px;
+    width: 275px;
+    height:275px;
+}
+.flex {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
