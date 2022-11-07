@@ -17,7 +17,7 @@ const Home = () =>
 
   const navigateToTopics = () => {
     
-    navigate('/Topics');
+    navigate('/topics');
   };
 
 

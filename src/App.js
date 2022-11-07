@@ -22,7 +22,7 @@ function App ()
         },
         {
           path: '/topics',
-          loader: () => fetch( 'https://openapi.programming-hero.com/api/quiz' ),
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Topics></Topics>
         },
 
