@@ -11,38 +11,38 @@ import Main from './layout/Main';
 function App ()
 {
   const router = createBrowserRouter( [
-    
+
     {
       path: '/',
       element: <Main></Main>,
       children: [
         {
           path: '/',
-          element:<Home></Home>
+          element: <Home></Home>
         },
         {
-          path: '/Topics',
-          loader: () => fetch( 'https://openapi.programming-hero.com/api/quiz/${1}' ),
-          element:<Topics></Topics>
+          path: '/topics',
+          loader: () => fetch( 'https://openapi.programming-hero.com/api/quiz' ),
+          element: <Topics></Topics>
         },
 
         {
-          path: '/Statistics',
-          element:<Statistics> </Statistics>         
+          path: '/statistics',
+          element: <Statistics> </Statistics>
 
         },
         {
-          path: '/Blog',
+          path: '/blog',
           element: <Blog></Blog>
         },
 
       ]
     }
-  ])
+  ] )
   return (
     <div className="App">
 
-<RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={ router }></RouterProvider>
 
     </div>
   );

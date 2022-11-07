@@ -1,13 +1,31 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+
+import { FaArrowRight } from "react-icons/fa"
+
+import { useNavigate} from 'react-router-dom';
+
+
+
 import "./Home.css";
 
-const Home = () => {
+const Home = () => 
+{
+
+  const navigate = useNavigate();
+
+  const navigateToTopics = () => {
+    
+    navigate('/Topics');
+  };
+
+
   return (
-    <div>
+    <div className="container">
       <div className="title">
         <h1>This is homepage</h1>
+
         <img className="title-image" src="./images/title.png" alt="" />
       </div>
 
@@ -16,8 +34,14 @@ const Home = () => {
           <Card style={{ width: "18rem" }}>
             <img src="./images/react.png" alt="" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Button variant="primary">Go somewhere</Button>
+              <div className="quiz-inner">
+                <Card.Title>
+                  <h4>React</h4>
+                </Card.Title>
+                <Button className="btn-start reactPractice" variant="primary"  onClick={navigateToTopics} >
+                  Start Practice <FaArrowRight />
+                </Button>
+              </div>
             </Card.Body>
           </Card>
         </div>
@@ -26,27 +50,43 @@ const Home = () => {
           <Card style={{ width: "18rem" }}>
             <img src="./images/css.png" style={{ width: "150px" }} alt="" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Button variant="primary">Go somewhere</Button>
+              <div className="quiz-inner">
+              <Card.Title>
+                  <h4>CSS</h4>
+                </Card.Title>
+                <Button className="btn-start" variant="primary" onClick={navigateToTopics}>
+                  Start Practice <FaArrowRight />
+                </Button>
+              </div>
             </Card.Body>
           </Card>
         </div>
         <div className="quiz-card">
           <Card style={{ width: "18rem" }}>
-            <img src="./images/js.png" alt="" />
+            <img src="./images/js.png" style={{height:'175px'}} alt="" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Button variant="primary">Go somewhere</Button>
+              <div className="quiz-inner">
+              <Card.Title>
+                  <h4>JavaScript</h4>
+                </Card.Title>
+                <Button className="btn-start" variant="primary" onClick={navigateToTopics}>
+                  Start Practice <FaArrowRight />
+                </Button>
+              </div>
             </Card.Body>
           </Card>
         </div>
         <div className="quiz-card">
           <Card style={{ width: "18rem" }}>
-            <img src="./images/git.png" alt="" />
+            <img src="./images/git.png" style={{height:'175px'}} alt="" />
             <Card.Body>
-              <div>
-                <Card.Title>Card Title</Card.Title>
-                <Button variant="primary">Go somewhere</Button>
+              <div className="quiz-inner">
+              <Card.Title>
+                  <h4>Git</h4>
+                </Card.Title>
+                <Button className="btn-start" variant="info" onClick={navigateToTopics}>
+                  Start Practice <FaArrowRight />
+                </Button>
               </div>
             </Card.Body>
           </Card>
