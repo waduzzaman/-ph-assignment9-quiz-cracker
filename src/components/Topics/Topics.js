@@ -1,25 +1,15 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 import { FaArrowRight } from "react-icons/fa"
 import { useNavigate } from 'react-router-dom';
 import Button from "react-bootstrap/Button";
 
-
-
-
-const Topics = () =>
-{
+const Topics = () =>{
 
     const navigate = useNavigate();
-
-    const navigateToReact = () =>
-    {
+    const navigateToReact = () =>    {
         navigate( '/react' );
     };
-
-
 
     const quizTopics = useLoaderData();
 
