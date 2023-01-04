@@ -7,9 +7,9 @@ Quiz Cracker
 
 ## About my Website: 
 
-# 1: The website is developed using React JS, React Router, Bootstrap, ReactBooStrap
-# 2: The main purpose of the website is to practice quiz for Different website building technologies: React, CSS, Git and JavaScript 
-# 3: The user can practice for the quiz by pressing button on the specific quiz section
+#1: The website is developed using React JS, React Router, Bootstrap, ReactBooStrap
+#2: The main purpose of the website is to practice quiz for Different website building technologies: React, CSS, Git and JavaScript 
+#3: The user can practice for the quiz by pressing button on the specific quiz section
 
 
 
