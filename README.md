@@ -1,8 +1,8 @@
 ### Live Website Link: 
-ReadMe file a live website link, 
+https://web-dev-quiz-practice.netlify.app/
 
 ## Website name: 
-Quiz Cracker 
+Tech Quizz
 
 
 ## About my Website: 
