@@ -20,9 +20,10 @@ img {
     background-color: aliceblue;
     border: 1px solid antiquewhite;
     padding: 20px;
-    margin: 5px;
+    margin: 10px;
     width: 275px;
     height:275px;
+    margin-bottom: 50px;
 }
 
 
