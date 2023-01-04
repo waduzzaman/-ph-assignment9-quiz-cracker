@@ -12,6 +12,8 @@ Tech Quizz
 #3: The user can practice for the quiz by pressing button on the specific quiz section
 
 
+###
+How to use this website: 
 
 # Getting Started with Create React App
 
