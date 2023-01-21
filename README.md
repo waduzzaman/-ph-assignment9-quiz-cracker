@@ -1,8 +1,8 @@
-### Live Website Link: 
+### Live Web Link: 
 https://web-dev-quiz-practice.netlify.app/
 
 ## Website name: 
-Tech Quizz
+Tech Quizz 
 
 
 ## About my Website: 
